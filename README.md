@@ -30,6 +30,7 @@ Função simples que formata um número decimal para temperatura com símbolo de
 export function formatTemperature(temp: number): string {
   return `${Math.round(temp)}°C`;
 }
+```
 
 🚀 Como executar os testes
 
