@@ -26,7 +26,7 @@ Guardar um exemplo prático de como configurar e executar testes unitários em f
 
 Função simples que formata um número decimal para temperatura com símbolo de graus Celsius:
 
-```ts
+```bash
 export function formatTemperature(temp: number): string {
   return `${Math.round(temp)}°C`;
 }
@@ -36,11 +36,14 @@ export function formatTemperature(temp: number): string {
 
 1.Instale as dependências:
 ```bash
-npm install```
+npm install
+```
 
 2.Execute os Testes:
+
 ```bash
-npx jest```
+npx jest
+```
 
 🧠 Notas importantes
 -Este projeto é apenas para fins de estudo/memória.
